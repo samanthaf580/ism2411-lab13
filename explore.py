@@ -29,3 +29,10 @@ print(df['per_unit'].mean())
 # Exercise 6
 print(df['region'].unique())
 print(df['region'].value_counts())
+
+# Exercise 7
+select_df = df[['region', 'product', 'revenue']]
+print(select_df.head())
+
+# Exercise 8
+df.to_csv('data.explored.csv', index=False)
