@@ -1,3 +1,25 @@
+
+# Reflection questions
+
+# 1. A boolean filter is a method of filtering data in a Dataframe so that each row meets a condition. 
+# Then it returns only those rows that meet that condition.
+
+# 2. Using one bracket such as df["revenue"] returns a series. This is a single column of data. 
+# On the other hand, using two brackets such as df[["revenue"]] returns a whole Dataframe. 
+# This distinction matters when you want to use pandas operations that require a Dataframe, while others work with a series
+
+# 3. If a collegue asked me explain why I'd choose pandas for this tast over excel, I would tell them that 
+# pandas can process large datasets and it makes it easier to repreat the same analysits without manually completing each step 
+# in excel.
+
+
+
+
+
+
+
+
+
 # Excersise 1
 
 import pandas as pd
