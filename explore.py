@@ -35,4 +35,4 @@ select_df = df[['region', 'product', 'revenue']]
 print(select_df.head())
 
 # Exercise 8
-df.to_csv('data.explored.csv', index=False)
+df.to_csv('data/explored.csv', index=False) 
